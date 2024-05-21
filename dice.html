@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+        <div id="ff"><label>Target</label>
+            <input type="number" value="" id="target">
+            <label> Remaning Chance</label>
+            <input type="number" value="" id="remaningChanceInp">
+            <button id="play">Play</button>
+        </div>
+        <br> <br>
+
+        <div class="d-none" id="playGround">
+        <div id="player1container" class="d-none" >
+            <span>player 1</span><br>
+            <span> score: </span>
+            <span id="scorePlayer1">0</span>
+            <span>Remanimng Chance :</span>
+            <span id="remaningChancePlayer1"> 0</span>
+            <br>
+            <img src='./images/dice-1.svg' id="face" class="face">
+            <br>
+            <button id="btnroll"> Roll</button>
+
+        </div>
+
+        <div id="plyer2container" class="d-none">
+            <span>player 2</span>
+            <br>
+            <span> score: </span>
+            <span id="scorePlayer2">0</span>
+            <span>Remanimng Chance :</span>
+            <span id="remaningChanceplayer2"> 0</span>
+            <br>
+            <img src='./images/dice-1.svg' id="face2" class="face2">
+            <br>
+            <button id="player2Btn"> Roll</button>
+            <span id="turn2"></span>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
